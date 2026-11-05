@@ -1,0 +1,32 @@
+#container{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.795)
+
+}
+#amazon a{
+    color: orange;
+    text-decoration: none;
+}
+#account a{
+     color: white;
+    text-decoration: none;
+}
+#cart a{
+     color: white;
+    text-decoration: none;
+}
+#contact a{
+     color: white;
+    text-decoration: none;
+}
+#searchbox a{
+    color: white;
+    text-decoration: none;
+}
+#button{
+    text-align: left;
+
+}
