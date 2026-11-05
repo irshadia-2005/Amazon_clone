@@ -1,0 +1,679 @@
+*{
+    margin: 0;
+}
+.navbar{
+    width:1250px;
+    height:60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+.nav_logo{
+    width: 117px;
+    height: 50px;
+    
+ background-image: url("amazon_logo.png");
+ background-size:cover;
+}
+.location{
+    align-self:self-end;
+    height: 50px;
+    width: 80px;
+    margin-left: 15px;
+}
+.location small{
+    align-self:center;
+}
+.nav-search{ /*search-bar*/
+    width:500px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+select{
+    height:30px;
+}
+.dropdown{
+    width: 150px;
+    height: 50px;
+    margin-left: 5px;
+  margin-top: 15px;
+}
+
+.searchbox{
+    color: white;
+    width: 340px;
+    height: 50px;
+    margin-top: 15px;
+    
+}
+.searchbox input{
+     width: 340px;
+    height: 30px;
+}
+.search-icon{
+    width: 40px;
+    height: 30px;
+     margin-top: 15px;
+    background-color: orange;
+    color: rgb(3, 3, 26)
+ }
+.search-icon i{
+    margin-left: 5px;
+     margin-top: 5px;
+} /*end of search bar*/
+
+.loc-change { /*Start of loc-change dropdownn*/
+    width: 150px;
+    height: 60px;
+    display: flex;
+    color: white;
+    gap: 10px;
+}
+.icon {
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.loc-change select{
+    margin-top: 15px;
+    margin-right: 10px;
+} /*End of loc-change dropdownn*/
+.signin{
+width: 150px;
+height:50px;
+color: white;
+}
+.signin select{
+    width: 150px;
+}
+.Returns{
+    width: 100px;
+    height: 60px;
+    color: white;
+    margin-top: 5px;
+}
+.Returns small{
+    margin-left: 10px;
+}
+.Returns big{
+    margin-left: 10px;
+}
+.Cart{
+    width: 70px;
+    height: 60px;
+    display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+}
+.Cart i{
+    align-self: center;
+}
+.Cart b{
+        align-self: center;
+}
+.navbartwo{
+    width: 1250px;
+    height: 40px;
+      background-color: #232F3E;
+    color: white; 
+    display: flex; 
+    flex-direction: row;
+}
+.Menu{
+    width: 60px;
+    height: 40px;
+     display: flex; 
+    flex-direction: row;
+    align-items: center;
+  margin-left: 10px;
+}
+.Menu i{
+    height: 20px;
+}
+.Menu span{
+    width: 12px;
+}
+.Deals{
+    width: 90px;
+    height: 40px;
+    margin-top: 10px;
+}
+.Video{
+    width: 90px;
+    height: 40px;
+    margin-top: 10px;
+   margin-left: 15px;
+}
+.GiftCard{
+    width: 75px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+.sell{
+    width: 30px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.Registry{
+    width: 60px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.Customer{
+    width: 150px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.shop_back_to_school{
+    display: flex;
+     justify-content: center;
+   flex-direction: row;
+    background-image: url("box1.jpg");
+    background-size: cover;
+    width: 1250px;
+    height: 300px;
+}
+.text{
+    display: flex;
+    width:1200px;
+    height:30px;
+    color: black;
+    background-color: white;
+    align-self: last baseline ;
+     justify-content: center;
+     position: relative;
+     bottom: 30px;
+}
+.layout{
+    width: 1250px;
+    height: 900px;
+    background-color: #E3E6E6;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+ 
+  .boxone{
+    width: 370px;
+  height: 400px;
+  background-color: whitesmoke;
+  color: #0f1111;
+  position: relative;
+  top: 15px;
+  left: 15px;
+  }
+  .boxone h2{
+    width: 320px;
+   height: 20px;
+   position: relative;
+   top: 10px;
+   left: 19px;
+  }
+  .bxoneimg{
+    width: 320px;
+    height: 300px;
+    background-image: url("box_school.jpg");
+  background-size: cover;
+   position: relative;
+  top: 24px;
+  left: 20px;
+  }
+  .boxone a{
+    color: #2162A1;
+    position: relative;
+    top: 40px;
+    left: 85px;
+    text-decoration: none;
+  }
+
+  .boxtwo{
+    width: 370px;
+  height: 400px;
+  background-color: whitesmoke;
+  color: #0f1111;
+  position: relative;
+  top: 15px;
+  left: 38px;
+  }
+  .boxtwo h2{
+     width: 320px;
+   height: 20px;
+   position: relative;
+   top: 10px;
+   left: 19px;
+  }
+  .bxtwoimg{
+    width: 320px;
+    height: 300px;
+    background-image: url("box2.jpg");
+  background-size: cover;
+   position: relative;
+  top: 24px;
+  left: 20px;
+  }
+  .boxtwo a{
+    color: #2162A1;
+    position: relative;
+    top: 40px;
+    left: 85px;
+    text-decoration: none;
+  }
+  .boxthree{
+   
+    width: 370px;
+  height: 400px;
+  background-color: whitesmoke;
+  color: #0f1111;
+  position: relative;
+  top: 15px;
+  left: 65px;
+  }
+   .boxthree h2{
+     width: 320px;
+   height: 20px;
+   position: relative;
+   top: 10px;
+   left: 19px;
+  }
+   .bxthreeimg{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+      width: 320px;
+    height: 300px;
+     position: relative;
+  top: 24px;
+ left: 20px;
+  }
+  .jeans{
+    width: 150px;
+    height: 100px;
+    background-image: url("box4.jpg");
+    background-size: cover;
+    font-size: 15px;
+  }
+
+  .bxthreeimg p{
+    position: relative;
+    top: 100px;
+  }
+  .tops{
+    width: 150px;
+    height: 100px;
+    background-image: url("box5.jpg");
+    background-size: cover;
+       position: relative;
+    left: 30px;
+    font-size: 15px;
+  }
+  .dress{
+    width: 150px;
+    height: 100px;
+    background-image: url("box3.jpg");
+    background-size: cover;
+    position: relative;
+    top: 15px;
+    font-size: 15px;
+  }
+  .shoes{
+    width: 150px;
+    height: 100px;
+    background-image: url("box6.jpg");
+    background-size: cover;
+       position: relative;
+    left: 30px;
+        top: 15px;
+        font-size: 15px;
+  }
+  .boxthree a{
+    color: #2162A1;
+      position: relative;
+    top: 40px;
+    left: 85px;
+    text-decoration: none;
+  }
+   .boxfour{
+   
+    width: 370px;
+  height: 400px;
+  background-color: whitesmoke;
+  color: #0f1111;
+  position: relative;
+ left: 15px;
+  }
+   .bxfourimg{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+      width: 320px;
+    height: 300px;
+     position: relative;
+  top: 24px;
+ left: 20px;
+  }
+   .bxfourimg p{
+    position: relative;
+    top: 100px;
+    font: 12px;
+  }
+   .bagpck{
+    width: 150px;
+    height: 100px;
+    background-image: url("backpacks.jpg");
+    background-size: cover;
+    font-size: 15px;
+  }
+   .elec{
+    width: 150px;
+    height: 100px;
+    background-image: url("electronics.jpg");
+    background-size: cover;
+       position: relative;
+    left: 30px;
+    font-size: 15px;
+  }
+  .station{
+    width: 150px;
+    height: 100px;
+    background-image: url("stationery.jpg");
+    background-size: cover;
+    position: relative;
+    top: 15px;
+    font-size: 15px;
+  }
+  .fash{
+    width: 150px;
+    height: 100px;
+    background-image: url("fashion.jpg");
+    background-size: cover;
+       position: relative;
+    left: 30px;
+        top: 15px;
+        font-size: 15px;
+  }
+   .boxfour a{
+    color: #2162A1;
+      position: relative;
+    top: 40px;
+    left: 85px;
+    text-decoration: none;
+  }  
+  .boxfour h2{
+    width: 320px;
+   height: 20px;
+   position: relative;
+   top: 10px;
+   left: 19px;
+  }
+    .boxfive{
+   
+    width: 370px;
+  height: 400px;
+  background-color: whitesmoke;
+  color: #0f1111;
+  position: relative;
+ left: 35px;
+  }
+   .bxfiveimg{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+      width: 320px;
+    height: 300px;
+     position: relative;
+  top: 24px;
+ left: 20px;
+  }
+   .bxfiveimg p{
+    position: relative;
+    top: 100px;
+    font: 12px;
+  }
+   .dining{
+    width: 150px;
+    height: 100px;
+    background-image: url("dining.jpg");
+    background-size: cover;
+    font-size: 15px;
+  }
+   .home{
+    width: 150px;
+    height: 100px;
+    background-image: url("home_imp.jpg");
+    background-size: cover;
+       position: relative;
+    left: 30px;
+    font-size: 15px;
+  }
+  .dec{
+    width: 150px;
+    height: 100px;
+    background-image: url("decor.jpg");
+    background-size: cover;
+    position: relative;
+    top: 15px;
+    font-size: 15px;
+  }
+  .bed{
+    width: 150px;
+    height: 100px;
+    background-image: url("bedding.jpg");
+    background-size: cover;
+       position: relative;
+    left: 30px;
+        top: 15px;
+        font-size: 15px;
+  }
+   .boxfive a{
+    color: #2162A1;
+      position: relative;
+    top: 40px;
+    left: 85px;
+    text-decoration: none;
+  }  
+  .boxfive h2{
+    width: 320px;
+   height: 20px;
+   position: relative;
+   top: 10px;
+   left: 19px;
+  }
+   .boxsix{
+   
+    width: 370px;
+  height: 400px;
+  background-color: whitesmoke;
+  color: #0f1111;
+  position: relative;
+ left: 65px;
+  }
+   .bxsiximg{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+      width: 320px;
+    height: 300px;
+     position: relative;
+  top: 24px;
+ left: 20px;
+  }
+   .cook p{
+    position: relative;
+    top: 125px;
+    font-size: 15px;
+  }
+   .cook{
+    width: 320px;
+    height: 125px;
+    background-image: url("cooker.jpg");
+    background-size: cover;
+  }
+  .coffee p{
+    position: relative;
+    top: 85px;
+    font-size: 15px;
+  }
+   .coffee{
+    width: 100px;
+    height:85px;
+    background-image: url("coffee.jpg");
+    background-size: cover;
+       position: relative;
+   top: 15px;
+  }
+  .pot p{
+    position: relative;
+    top: 85px;
+    font-size: 15px;
+  }
+  .pot{
+    width: 100px;
+    height: 85px;
+    background-image: url("pots.jpg");
+    background-size: cover;
+    position: relative;
+    top: 15px;
+    left: 15px;
+  }
+  .ket p{
+    position: relative;
+    top: 85px;
+    font-size: 15px;
+  }
+  .ket{
+    width: 100px;
+    height: 85px;
+    background-image: url("kettles.jpg");
+    background-size: cover;
+       position: relative;
+    left: 30px;
+        top: 15px;
+  }
+   .boxsix a{
+    color: #2162A1;
+      position: relative;
+    top: 40px;
+    left: 85px;
+    text-decoration: none;
+  }  
+  .boxsix h2{
+    width: 320px;
+   height: 20px;
+   position: relative;
+   top: 10px;
+   left: 19px;
+  }
+  .footer{
+    width: 1250px;
+    height: 940px;
+  }
+  .signinft{
+    width: 1250px;
+    height: 100px;
+    color: #000000;
+    background-color: white;
+    border: 15px;
+    box-sizing: border-box;
+    padding: 15px;
+    padding-left: 450px;
+  }
+  .signinft button{
+    width: 150px;
+     height: 30px;
+     color: black;
+     background-color: orange;
+     border: 2px solid orange;
+     border-radius: 22%;
+   
+  }
+  .signbutton{
+  padding-left: 95px;
+  padding-top: 5px;
+  }
+  .custft{
+    font-size: 11px;
+     padding-left: 115px;
+  }
+  .custft a{
+    color:#2162A1;
+  }
+  .back2top{
+    width: 1250px;
+    height: 50px;
+    background-color: #37475A;
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+  }
+  .back2top a{
+    align-self: center;
+    color: white;
+    text-decoration: none;
+  }
+  .nav_footer{
+    width: 1250px;
+    height: 350px;
+    color: white;
+    background-color: #232F3E;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    font-size: 16px;
+  }
+  .nav_footer ul{
+    list-style: none;
+    padding-left: 0%;
+  }
+  .sec1{
+    width: 185px;
+    height:  295px;
+    padding-left: 115px;
+     padding-top: 15px;
+
+  }
+    .sec2{
+    width: 185px;
+    height:  295px;
+      padding-top: 15px;
+   
+  }
+    .sec3{
+    width: 202px;
+    height:  295px;
+      padding-top: 15px;
+
+  }
+    .sec4{
+    width: 185px;
+    height:  295px;
+    padding-right: 85px ;
+      padding-top: 15px;
+  }
+  .nav_footer_link{
+    width:1250px;
+    height: 80px;
+       color: white;
+    background-color: #232F3E;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .footer_amazon{
+    width: 120px;
+    height: 70px;
+    background-image: url("images.png");
+    background-size: cover;
+  }
+  .footer_dropdown{
+    width: 135px;
+    height: 30px;
+  }
+  .footer_dropdown i{
+    width: 15px;
+    height: 15px;
+  }
