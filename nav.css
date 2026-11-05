@@ -1,0 +1,26 @@
+.nav{
+    display:flex;
+}
+#amazon{
+    color: orange;
+    background-color: rgba(0, 0, 0, 0.728);
+    height: 26px;
+    width: 150px;
+}
+#account, #cart, #contact{
+    font-size:smaller;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.728);
+    height: 26px;
+    width: 150px;
+}
+#searchbox{
+    background-color: rgba(0, 0, 0, 0.728);
+    height: 26px;
+    width: 450px;
+}
+button{
+    color: white;
+    background-color: orange;
+    height: 
+}
